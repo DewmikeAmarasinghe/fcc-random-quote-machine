@@ -35,6 +35,10 @@ function App() {
     <div className='background' style={{ backgroundColor: randomColor, transition }}>
       <div id="quote-box">
         <div className="quote-content" style={{ color: randomColor, transition }}>
+          <h3 style={{ textAlign: 'center' }}>
+            Since this is my first react app I was confused on how to set it up and do it so I did this first project with the help of 'Landon Schlangen's youtube video on this project. Please dont consider this plagerism and thank you for understanding!
+          </h3>
+          <br />
           <h2 id="text">
             <FaQuoteLeft size='30' style={{ marginRight: "10px" }} />
               {quote.quote}
